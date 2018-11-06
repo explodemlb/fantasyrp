@@ -150,7 +150,7 @@ var l_messages = [
 	"Interested in donating? This will keep the server running & create room for more ideas to be put forth!",
 	"If you join our Discord you will have to wait to be questioned by one of our support agents. This is for the safety of the Discord",
 	"We do not yet have a TeamSpeak, but are planning to open one.",
-	"Our temprorary site is KaiserNetworks.mistforums.com"
+	"Our temprorary site is KaiserNetworks.mistforums.com",
 	"Join our Discord: https://discordapp.com/invite/WX3mJyc",
 ];
 
