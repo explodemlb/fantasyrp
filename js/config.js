@@ -14,7 +14,7 @@ var l_serverImage = "logo.png";
 
 // Center logo?
 // 'true' or 'false'
-var l_centerLogo = true;
+var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
@@ -86,6 +86,15 @@ var l_bgImages = [
 	"12.jpg",
 	"13.jpg",
 	"14.jpg",
+	"15.jpg",
+	"16.jpg",
+	"17.jpg",
+	"18.jpg",
+	"19.jpg",
+	"20.jpg",
+	"21.jpg",
+	"22.jpg",
+	"23.jpg",
 ];
 
 // (Image-background only)
