@@ -14,7 +14,7 @@ var l_serverImage = "logo.png";
 
 // Center logo?
 // 'true' or 'false'
-var l_centerLogo = false;
+var l_centerLogo = true;
 
 // Display current map and gamemode?
 // 'true' or 'false'
@@ -22,7 +22,7 @@ var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "Kaiser Networks Fantasy";
+var l_serverName = "Kaiser Networks KingdomRP";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -124,8 +124,7 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{youtube: "https://www.youtube.com/watch?v=aMqOkmDoMFQ", name: "Kingdom of Bards"},
-	{youtube: "https://www.youtube.com/watch?v=6gtAZIZQCuw", name: "Dragon Empress"},
+	{ogg: "1.ogg", name: "Jeremy Soule (Skyrim) — Tundra + Winter Ambience"},
 ];
 
 // Random music order?
@@ -151,7 +150,7 @@ var l_messages = [
 	"If you join our Discord you will have to wait to be questioned by one of our support agents. This is for the safety of the Discord",
 	"We do not yet have a TeamSpeak, but are planning to open one.",
 	"Our temprorary site is KaiserNetworks.mistforums.com",
-	"Join our Discord: https://discordapp.com/invite/WX3mJyc",
+	"Join our Discord: https://discordapp.com/invite/WX3mJyc. You will need to wait for one of our support agents to screen you or else you will not be able to see anything.",
 ];
 
 // Random message order?
