@@ -18,11 +18,11 @@ var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
-var l_displayMapGamemode = true;
+var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Kaiser Networks | FantasyRP";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -72,9 +72,29 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"1.jpg",
+	"2.jpg",
+	"3.jpg",
+	"4.jpg",
+	"5.jpg",
+	"6.jpg",
+	"7.jpg",
+	"8.jpg",
+	"9.jpg",
+	"10.jpg",
+	"11.jpg",
+	"12.jpg",
+	"13.jpg",
+	"14.jpg",
+	"15.jpg",
+	"16.jpg",
+	"17.jpg",
+	"18.jpg",
+	"19.jpg",
+	"20.jpg",
+	"21.jpg",
+	"22.jpg",
+	"23.jpg",
 ];
 
 // (Image-background only)
@@ -98,7 +118,7 @@ var l_bgOverlay = true;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 50;
+var l_bgDarkening = 0;
 
 // Play music during the loading screen?
 // 'true' or 'false'
@@ -106,17 +126,14 @@ var l_music = true;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
-	{youtube: "https://www.youtube.com/watch?v=3VTwbEWW2W8", name: "Tea for Two"},
-	{youtube: "https://www.youtube.com/watch?v=VaDN_19rPyw", name: "Voile, the Magic Library"},
+	{ogg: "1.ogg", name: "FantasyRP"},
 ];
 
 // Random music order?
@@ -133,9 +150,16 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
-	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"The server is loading shortly. Please be patient. It is worth it.",
+	"Experience FantasyRP/KingdomRP like never before!",
+	"Serious roleplay. Lots of expansion ideas!",
+	"Welcome to Kaiser Networks!",
+	"House Leon, House Draco, House Dague, or the Beings? Who will you join?",
+	"Interested in donating? This will keep the server running & create room for more ideas to be put forth!",
+	"If you join our Discord you will have to wait to be questioned by one of our support agents. This is for the safety of the Discord",
+	"We do not yet have a TeamSpeak, but are planning to open one.",
+	"Our temprorary site is KaiserNetworks.mistforums.com",
+	"Join our Discord: https://discordapp.com/invite/WX3mJyc. You will need to wait for one of our support agents to screen you or else you will not be able to see anything.",
 ];
 
 // Random message order?
