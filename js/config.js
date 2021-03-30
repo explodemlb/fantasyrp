@@ -132,16 +132,18 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"The server is loading shortly. Please be patient. It is worth it.",
-	"Experience FantasyRP/KingdomRP like never before!",
+	"The server is loading. Please be patient. It is worth it!",
+	"FastDL & Workshop added, if you have any errors please bring them forth and we will address it.",
+	"We are currently under a deep development stage, but we are hopefully nearing completion.",
+	"Want to be apart of our staff/beta test team? Ask a staff member on how to join us on our adventure.",
+	"Experience a KingdomRP like never before!",
 	"Serious roleplay. Lots of expansion ideas!",
 	"Welcome to Kaiser Networks!",
 	"House Leon, House Draco, House Dague, or the Beings? Who will you join?",
-	"Interested in donating? This will keep the server running & create room for more ideas to be put forth!",
-	"If you join our Discord you will have to wait to be questioned by one of our support agents. This is for the safety of the Discord",
-	"We do not yet have a TeamSpeak, but are planning to open one.",
 	"Our temprorary site is KaiserNetworks.mistforums.com",
-	"Join our Discord: https://discordapp.com/invite/WX3mJyc. You will need to wait for one of our support agents to screen you or else you will not be able to see anything.",
+	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
+	"No more pay to win, lots of exclusive jobs for free and for donators.",
+	"Potential perks being implemented for staff members.",
 ];
 
 // Random message order?
