@@ -94,12 +94,12 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 10000;
 
 // (Image-background only)
 // Image background fade velocity
 // in milliseconds
-var l_bgImageFadeVelocity = 2000;
+var l_bgImageFadeVelocity = 5000;
 
 // Enable background overlay?
 // 'true' or 'false'
@@ -135,7 +135,7 @@ var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 15;
+var l_musicVolume = 5;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -163,7 +163,7 @@ var l_messagesRandom = true;
 
 // Delay between message changes
 // in milliseconds
-var l_messagesDelay = 5000;
+var l_messagesDelay = 10000;
 
 // Messages fade time
 // in milliseconds
