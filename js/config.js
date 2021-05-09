@@ -144,8 +144,8 @@ var l_messagesEnabled = true;
 // Enter your custom messages below
 var l_messages = [
 	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
-	"If you Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select Chromium x86 as your Beta > This will update your Gmod > Run Gmod as 64 Bit when launching. Enjoy!"
-	"Add me at https://steamcommunity.com/id/DonNecro/ to troubleshoot any connection issues."
+	"If you Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select Chromium x86 as your Beta > This will update your Gmod > Run Gmod as 64 Bit when launching. Enjoy!",
+	"Add me at https://steamcommunity.com/id/DonNecro/ to troubleshoot any connection issues.",
 ];
 
 // Random message order?
