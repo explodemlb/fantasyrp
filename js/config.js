@@ -143,18 +143,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"The server is loading. Please be patient. It is worth it!",
-	"FastDL & Workshop added, if you have any errors please bring them forth and we will address it.",
-	"We are currently under a deep development stage, but we are hopefully nearing completion.",
-	"Want to be apart of our staff/beta test team? Ask a staff member on how to join us on our adventure.",
-	"Experience a KingdomRP like never before!",
-	"Serious roleplay. Lots of expansion ideas!",
-	"Welcome to Kaiser Networks!",
-	"House Leon, House Draco, House Dague, or the Beings? Who will you join?",
-	"Our temprorary site is KaiserNetworks.mistforums.com",
 	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
-	"No more pay to win, lots of exclusive jobs for free and for donators.",
-	"Potential perks being implemented for staff members.",
+	"If you Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select Chromium x86 as your Beta > This will update your Gmod > Run Gmod as 64 Bit when launching. Enjoy!"
+	"Add me at https://steamcommunity.com/id/DonNecro/ to troubleshoot any connection issues."
 ];
 
 // Random message order?
