@@ -127,13 +127,13 @@ var l_musicPlaylist = [
 	{ogg: "Faolan - Auld Tavern Song [Medieval Tavern Music].ogg", name: "Tea for Two2"},
 	{ogg: "Faolan - Farewell [Beautiful Calm Music].ogg", name: "Tea for Two3"},
 	{ogg: "Faolan - Immortal [Battle Music].ogg", name: "Tea for Two4"},
-	{ogg: "Faolan - In The Tavern [Medieval Tavern Music].ogg", name: "Tea for Two4"},
-	{ogg: "Faolan - Mist of the Highlands [Celtic Music].ogg", name: "Tea for Two4"},
-	{ogg: "Faolan - Tales of Triumph [Epic Viking Music].ogg", name: "Tea for Two4"},
-	{ogg: "Medieval Music – Wild Boar's Inn.ogg", name: "Tea for Two4"},
-	{ogg: "Medieval Tavern Music - Brown Fox Inn.ogg", name: "Tea for Two4"},
-	{ogg: "Medieval Tavern Music - Hooded Rogue Inn.ogg", name: "Tea for Two4"},
-	{ogg: "Toss A Coin To Your Witcher.ogg", name: "Tea for Two4"},
+	{ogg: "Faolan - In The Tavern [Medieval Tavern Music].ogg", name: "Tea for Two5"},
+	{ogg: "Faolan - Mist of the Highlands [Celtic Music].ogg", name: "Tea for Two6"},
+	{ogg: "Faolan - Tales of Triumph [Epic Viking Music].ogg", name: "Tea for Two7"},
+	{ogg: "Medieval Music – Wild Boar's Inn.ogg", name: "Tea for Two8"},
+	{ogg: "Medieval Tavern Music - Brown Fox Inn.ogg", name: "Tea for Two9"},
+	{ogg: "Medieval Tavern Music - Hooded Rogue Inn.ogg", name: "Tea for Two10"},
+	{ogg: "Toss A Coin To Your Witcher.ogg", name: "Tea for Two11"},
 ];
 
 // Random music order?
