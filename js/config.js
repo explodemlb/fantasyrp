@@ -122,11 +122,18 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "1.ogg", name: "Tea for Two"},
-	{ogg: "2.ogg", name: "Tea for Two1"},
-	{ogg: "3.ogg", name: "Tea for Two2"},
-	{ogg: "4.ogg", name: "Tea for Two3"},
-	{ogg: "5.ogg", name: "Tea for Two4"},
+	{ogg: "Dark Tavern Music - Goblin King's Tavern.ogg", name: "Tea for Two"},
+	{ogg: "Drums of Drakkar vikings and medieval music.ogg", name: "Tea for Two1"},
+	{ogg: "Faolan - Auld Tavern Song [Medieval Tavern Music].ogg", name: "Tea for Two2"},
+	{ogg: "Faolan - Farewell [Beautiful Calm Music].ogg", name: "Tea for Two3"},
+	{ogg: "Faolan - Immortal [Battle Music].ogg", name: "Tea for Two4"},
+	{ogg: "Faolan - In The Tavern [Medieval Tavern Music].ogg", name: "Tea for Two4"},
+	{ogg: "Faolan - Mist of the Highlands [Celtic Music].ogg", name: "Tea for Two4"},
+	{ogg: "Faolan - Tales of Triumph [Epic Viking Music].ogg", name: "Tea for Two4"},
+	{ogg: "Medieval Music – Wild Boar's Inn.ogg", name: "Tea for Two4"},
+	{ogg: "Medieval Tavern Music - Brown Fox Inn.ogg", name: "Tea for Two4"},
+	{ogg: "Medieval Tavern Music - Hooded Rogue Inn.ogg", name: "Tea for Two4"},
+	{ogg: "Toss A Coin To Your Witcher.ogg", name: "Tea for Two4"},
 ];
 
 // Random music order?
@@ -135,7 +142,7 @@ var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 5;
+var l_musicVolume = 2;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -144,7 +151,7 @@ var l_messagesEnabled = true;
 // Enter your custom messages below
 var l_messages = [
 	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
-	"If your Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select Chromium x86 as your Beta > This will update your Gmod > Run Gmod as 64 Bit when launching. Enjoy!",
+	"If your Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select X86-64 - Chromium + 64-bit binaries > This will update your Gmod > Run Gmod, do NOT select 32Bit/64Bit. Launch game a couple of times. Enjoy!",
 	"Add me at https://steamcommunity.com/id/DonNecro/ to troubleshoot any connection issues.",
 ];
 
@@ -154,7 +161,7 @@ var l_messagesRandom = true;
 
 // Delay between message changes
 // in milliseconds
-var l_messagesDelay = 10000;
+var l_messagesDelay = 30000;
 
 // Messages fade time
 // in milliseconds
