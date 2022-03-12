@@ -185,7 +185,7 @@ config.messages_random_order = false
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 3000
+config.messages_delay = 10000
 
 // Messages fade duration
 // in milliseconds
