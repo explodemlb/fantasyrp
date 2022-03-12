@@ -1,52 +1,73 @@
 @font-face {
-	font-family: 'Quicksand';
-	src: url("fonts/Quicksand-Regular.ttf") format('truetype');
+	font-family: "Comfortaa";
+	src: url("fonts/Comfortaa-Regular.otf") format("opentype");
 	font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-	font-family: 'Quicksand';
-	src: url("fonts/Quicksand-Bold.ttf") format('truetype');
-	font-weight: bold;
-    font-style: normal;
+	font-style: normal;
 }
 
-/* Youtube */
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+html {
+	background-color: black;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Open Sans";
+	-webkit-font-smoothing: antialiased;
+	font-size: 20px;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+	display: none;
+}
+
+video {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#video-container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+
 #player {
 	position: absolute;
 	z-index: -99;
 	display: none;
 }
 
-body, html {
-	padding: 0; margin: 0;
-	width: 100%; height: 100%;
-}
-
-body {
-	font-family: 'Quicksand';
-	-webkit-font-smoothing: antialiased;
-	font-size: 16px;
-	text-shadow: 1px 1px 0px rgb(0, 0, 0);
-	color: rgb(255,255,255);
-	background-color: black;
-	overflow: hidden;
-}
-
-video {
-	position: fixed; 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; min-height: 100%;
-	width: auto; height: auto;
-	z-index: -2;
-	background-size: cover;
-	background-position: center; 
-}
 #warn {
 	display: none;
 	position: fixed;
-	width: 100%; height: 100%;
+	width: 100%;
+	height: 100%;
 	z-index: 99;
 	background-color: black;
 	color: white;
@@ -55,95 +76,122 @@ video {
 	left: 0;
 }
 
+#header {
+	margin: 20px;
+}
+
 #title {
-	display: inline-block;
+	font-family: "Comfortaa";
 	font-size: 80px;
-	margin-left: 12px;
-	margin-top: 12px;
-	overflow: hidden;
+}
+
+#title-text {
+	line-height: 90px;
+}
+
+.center #title-image {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #title img {
 	display: block;
 }
 
-#gamemode, #map {
-	font-weight: bold;
+#subtitle {
+	margin-top: 6px;
+	display: none;
+	font-size: 16px;
 }
 
 #status-container {
 	position: absolute;
+	width: 80%;
 	height: 50px;
-	width: 100%;
 	top: 50%;
-	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: -25px;
 	font-size: 20px;
-	line-height: 18px;
+	line-height: 20px;
+	text-align: center;
+}
+
+#status-left {
+	float: left;
+}
+
+#status-right {
+	float: right;
 }
 
 #loading {
 	display: inline-block;
-	width: 80%;
-	height: 4px;
-	background-color: rgba(255,255,255,0.5);
-	border-radius: 2px;
+	width: 100%;
+	height: 6px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
 }
 
 #loading-progress {
-	height: 100%; width: 0%;
+	height: 100%;
+	width: 0%;
 	background-color: white;
 	border-radius: 2px;
 }
 
 #messages {
 	display: none;
-	margin-top: 20px;
-	font-size: 18px;
-}
-
-#subtitle {
-	margin-left: 12px;
-	display: none;
+	margin-top: 8px;
+	font-size: 26px;
+	line-height: 36px;
 }
 
 #music {
 	position: absolute;
-	left: 0; bottom: 0;
-	margin: 12px;
+	left: 0;
+	bottom: 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	display: none;
 	line-height: 24px;
+	font-size: 16px;
+	width: 50%;
 }
 
 #music-name {
-	position: relative;
-	font-weight: bold;
 	margin-top: 6px;
-}
-
-#overlay {
-	position: fixed;
-	left: 0px; top: 0px;
-	width: 100%; height: 100%;
-	z-index: -1;
-	background-repeat: repeat;
+	font-size: 22px;
 }
 
 #enable-audio {
 	position: absolute;
-	left: 0; bottom: 0;
-	margin: 12px;
+	left: 0;
+	bottom: 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	display: none;
 	font-size: 32px;
 	padding: 6px;
-	background-color: black;
-	opacity: 0.6;
-	border-radius: 4px;
+	opacity: 0.7;
+	border-radius: 8px;
 	max-width: 50%;
+	font-weight: bold;
 }
+
 #enable-audio:hover {
 	cursor: pointer;
 	opacity: 1;
+}
+
+#overlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-repeat: repeat;
 }
 
 #error-box {
@@ -154,6 +202,20 @@ video {
 	max-width: 40%;
 	min-width: 100px;
 }
+
+#warn h1 {
+	margin-top: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.gamemode,
+.map {
+	font-style: italic;
+}
+
 .error {
 	position: relative;
 	padding: 6px;
@@ -161,10 +223,12 @@ video {
 	border-radius: 2px;
 	margin-top: 6px;
 }
+
 .error-title {
 	font-weight: bold;
 	margin-bottom: 6px;
 }
+
 .close-button {
 	position: absolute;
 	top: 0;
@@ -172,6 +236,7 @@ video {
 	margin: 6px;
 	font-weight: bold;
 }
+
 .close-button:hover {
 	cursor: pointer;
 }
