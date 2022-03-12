@@ -164,19 +164,22 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
-	"If you time-out or crash out of gmod contact us on discord for support:https://discordapp.com/invite/H2bzFcpYMp, or add [KSN] Don Necro on steam.",
+	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp",
+	"If you time-out or crash out of gmod contact us on discord for support: https://discordapp.com/invite/H2bzFcpYMp, or add [KSN] Don Necro on STEAM",
 	"Check out our website in the meantime at KaiserNetworks.mistforums.com",
 	"A KingdomRP like never before.",
-	"Weapon Rarities:Common, Uncommon, Rare, Unique, & Legendary!",
+	"Weapon Rarities: Common, Uncommon, Rare, Unique, Legendary & Ancient! Level your crafting all the way up the tiers.",
 	"Blacksmithing: Mine, Chop, & Craft from the lowest of weapons refining and leveling up your skills to create better weaponry.",
 	"Alchemy: Forage for herbs and mix them together to create potions, the more you do it the better potions you can create!",
 	"Farming: Feed the hungry of this land. Grow plots of vegetables & fruits that increase players hunger & health",
 	"Factions: Try out and join the faction that calls to you most Draco, Beings, Leon, or Dague?",
 	"Capture points: Join your faction in the quest of conquering the lands ahead. If you have enough territory you may raid your enemies with your commanders!",
-	"Mobs & Bosses: All mobs drop loot into your C inventory. Press C when not holding a weapon to open it. Mobs drop gold and experience books, Mini bosses & Event bosses drop weapons, gold, and experience books",
+	"Mobs & Bosses: All mobs drop loot into your C inventory. Press C when not holding a weapon to open it. Mobs drop gold and experience books, Mini bosses & Event bosses drop weapons, gold, and experience books.",
 	"Beware of night time when the creatures come out crawling from the depths of the dark to attack anyone outside of their castle! Defend yourselves!",
 	"https://steamcommunity.com/id/DonNecro/ add me if you have any questions or converns",
+	"Knights, Guards, Mages, Archers, Assassins, and more! Choose your calling right. It's never too late to turn around...",
+	"Thank you for patiently waiting, bare with us as we load our content",
+	"Please subscribe to the workshop as this will better improve your overall experience: https://steamcommunity.com/workshop/filedetails/?id=2437917324",
 ]
 
 // Random message order?
