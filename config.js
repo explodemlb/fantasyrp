@@ -181,11 +181,11 @@ config.messages_list = [
 
 // Random message order?
 // "true" or "false"
-config.messages_random_order = false
+config.messages_random_order = true
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 30000
+config.messages_delay = 15000
 
 // Messages fade duration
 // in milliseconds
