@@ -153,7 +153,7 @@ config.music_random_order = true
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 10
+config.music_volume = 20
 
 // Use Gmod volume for the music instead of manual volume
 config.music_gmod_volume = true
@@ -165,8 +165,18 @@ config.messages_enable = true
 // Enter your custom messages below
 config.messages_list = [
 	"Join our Discord: https://discordapp.com/invite/H2bzFcpYMp.",
-	"If your Garry's Mod Crashes or you time out from the server. Go to your Steam Games Library > Right Click Garry's Mod > Click Properties > Click Betas > Select X86-64 - Chromium + 64-bit binaries > This will update your Gmod > Run Gmod, do NOT select 32Bit/64Bit. Launch game a couple of times. Enjoy!",
-	"Add me at https://steamcommunity.com/id/DonNecro/ to troubleshoot any connection issues.",
+	"If you time-out or crash out of gmod contact us on discord for support:https://discordapp.com/invite/H2bzFcpYMp, or add [KSN] Don Necro on steam.",
+	"Check out our website in the meantime at KaiserNetworks.mistforums.com",
+	"A KingdomRP like never before.",
+	"Weapon Rarities:Common, Uncommon, Rare, Unique, & Legendary!",
+	"Blacksmithing: Mine, Chop, & Craft from the lowest of weapons refining and leveling up your skills to create better weaponry.",
+	"Alchemy: Forage for herbs and mix them together to create potions, the more you do it the better potions you can create!",
+	"Farming: Feed the hungry of this land. Grow plots of vegetables & fruits that increase players hunger & health",
+	"Factions: Try out and join the faction that calls to you most Draco, Beings, Leon, or Dague?",
+	"Capture points: Join your faction in the quest of conquering the lands ahead. If you have enough territory you may raid your enemies with your commanders!",
+	"Mobs & Bosses: All mobs drop loot into your C inventory. Press C when not holding a weapon to open it. Mobs drop gold and experience books, Mini bosses & Event bosses drop weapons, gold, and experience books",
+	"Beware of night time when the creatures come out crawling from the depths of the dark to attack anyone outside of their castle! Defend yourselves!",
+	"https://steamcommunity.com/id/DonNecro/ add me if you have any questions or converns",
 ]
 
 // Random message order?
@@ -175,7 +185,7 @@ config.messages_random_order = false
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 30000
+config.messages_delay = 3000
 
 // Messages fade duration
 // in milliseconds
