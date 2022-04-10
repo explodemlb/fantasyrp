@@ -179,6 +179,7 @@ config.messages_list = [
 	"Knights, Guards, Mages, Archers, Assassins, and more! Choose your calling right. It's never too late to turn around...",
 	"Thank you for patiently waiting, bare with us as we load our content",
 	"Please subscribe to the workshop as this will better improve your overall experience: https://steamcommunity.com/workshop/filedetails/?id=2437917324",
+	"Do not alt+tab too many times. If your gmod crashes or times out for whatever reason. Try rejoining right after, you will be able to join the server much faster.",
 ]
 
 // Random message order?
